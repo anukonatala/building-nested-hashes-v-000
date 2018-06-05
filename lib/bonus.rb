@@ -29,4 +29,4 @@ def bonus
   epic_tragedy
 end
 
-puts "#{bonus}"
+puts "#{bonus()}"
