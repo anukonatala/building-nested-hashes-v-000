@@ -2,5 +2,8 @@ def first_challenge
    epic_tragedy = {}
    epic_tragedy[:montague] = {}
    epic_tragedy[:capulet] = {}
-   epic_tragedy
+   puts "#{epic_tragedy}"
+   
 end
+
+first_challenge
