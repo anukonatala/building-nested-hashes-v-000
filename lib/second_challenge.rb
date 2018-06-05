@@ -53,8 +53,6 @@ def second_challenge
       }
     ]
       }}
-  puts "#{epic_tragedy}"
+
   
 end
-
-second_challenge
