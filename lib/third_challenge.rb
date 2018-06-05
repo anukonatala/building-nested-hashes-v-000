@@ -27,12 +27,6 @@ def third_challenge
       }
     ]
   },
-   expect(third_challenge[:montague][:patriarch].keys).to eq([:name, :age])
-    expect(third_challenge[:montague][:matriarch].keys).to eq([:name, :age])
-    expect(third_challenge[:montague][:hero].keys).to eq([:name, :age, :status])
-    expect(third_challenge[:montague][:patriarch].values).to eq(["Lord Montague", "53"])
-    expect(third_challenge[:montague][:matriarch].values).to eq(["Lady Montague", "54"])
-    expect(third_challenge[:montague][:hero].values).to eq(["Romeo", "15", "alive"])
   :capulet => {
     :patriarch => {
       :name => "Lord Capulet",
